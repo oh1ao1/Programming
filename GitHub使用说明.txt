@@ -1,0 +1,10 @@
+一、github仓库分为本地库和远程库，远程就是github网站服务器上的仓库
+
+二、建立本地库
+	1、在一个文件夹Shift+右键——Git Bash Here打开Github控制台；
+	2、【git init】将文件夹交予git管理；
+	3、关联一个远程库，使用命令【git remote add origin 仓库SSH】
+
+	4、暂存: 【git add 文件名】或者【git add .】（暂存所有文件）
+	5、推送到本地库: 【git commit -m "版本说明"】
+	6、推送到远程库: 【git push origin master】（推送到主分支）
